@@ -1,10 +1,17 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const bodyParser = require('body-parser')
 
 
 const path = require('path');
 
 const app = express();
+
+mongoose.connect('mongodb+srv://root:OYIdMhgfNbC2pgti@cluster0.fvovwqo.mongodb.net/?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true}).then(function(){
+    console.log('conectado com sucesso');
+}).catch(function(err){
+    console.log(err.message);
+})
 
 app.use(bodyParser.json() );
 app.use(bodyParser.urlencoded({
