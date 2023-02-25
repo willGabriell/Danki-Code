@@ -1,2 +1,2 @@
 # Danki-Code
- arquivos dos cursos da Danki code
+ Todos os arquivos dos cursos da Danki code
