@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form fieldset{
+    padding: 20px 30px;
+    border: 2px solid black;
+}
+
+form legend{
+    font-size: 17px;
+    text-align: left;
+
+}
+
+form input[type=text]{
+    display: inline-block;
+    margin-top: 20px;
+    width: 80%;
+    padding: 10px 13px;
+}
+
+form input[type=email]{
+    display: inline-block;
+    margin-top: 20px;
+    width: 80%;
+    padding: 10px 13px;
+}
+
+form input[type=text]:focus{
+    outline: 0;
+}
+
+form select{
+    width:calc (88% + 26px);
+    margin-top: 30px;
+    padding: 10px 13px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+form h2{
+    margin-top: 20px;
+    color: rgb(130, 130, 130);
+}
+
+.input{
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.input span{
+    margin-left: 6px;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+form input[type=submit]{
+    margin-top: 30px;
+    border: 0;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 16px;
+    border: 1px solid rgb(41, 41, 41);
+    background-color: rgb(140, 140, 140);
+}

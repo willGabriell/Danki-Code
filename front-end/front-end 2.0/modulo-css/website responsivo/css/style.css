@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+}
+
+.x50{
+    width: 50%;
+    padding: 0 10px;
+    background-color: red;
+}
+
+.menu{text-align: right ;}
+
+section.banner{
+    width: 100%;
+    min-height: 500px;
+    background-color: darkblue;
+    text-align: center;
+    padding: 90px 0;
+    color: whitesmoke;
+}
+
+section.diferenciais{
+    display: flex;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.w33{
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: cadetblue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

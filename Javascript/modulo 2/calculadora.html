@@ -1,0 +1,34 @@
+<html>
+    <body>
+        <script>
+            var numeroinicial = prompt('informe o primeiro numero...')
+
+            var sinal = prompt('informe o sinal da sua operação...')
+
+            while(sinal !='-' && sinal !='+' && sinal != '/' && sinal !='*'){
+                alert('por favor informe um sinal valido')
+                
+                sinal = prompt('informe o sinal da sua operação...')
+            }
+
+            var numerofinal = prompt('informe o utimo numero...')
+
+            numeroinicial = parseInt(numeroinicial)
+            numeroinicial = parseInt(numerofinal)
+
+            var resultadofinal = 0
+            if(sinal == '+'){
+                resultadofinal = numeroinicial + numerofinal;
+            }else if(sinal == '-'){
+                resultadofinal = numeroinicial - numerofinal;
+            }else if(sinal == '/'){
+                resultadofinal = numeroinicial / numerofinal;
+            }else if(sinal == '*'){
+                resultadofinal = numeroinicial * numerofinal;
+            }
+
+            alert('o resultado final é ' + resultadofinal)
+            
+        </script>
+    </body>
+</html> 
