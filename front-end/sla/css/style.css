@@ -3,3 +3,27 @@
     padding: 0;
     border-radius: 0;
 }
+
+header{
+    display: flex;
+    padding: 10px;
+    background-color: #353535;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    text-align: right;
+    margin: 1%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w33{
+    width: 33.3%;
+}
